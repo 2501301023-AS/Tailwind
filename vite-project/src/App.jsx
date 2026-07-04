@@ -122,14 +122,56 @@
 // export default App
 
 
-function App() {
+// function App() {
+//   return (
+//     <div className="flex min-h-screen items-center justify-center bg-slate-900 text-white">
+//       <h1 className="text-4xl font-bold text-sky-400 drop-shadow-md">
+//         Tailwind is up and running! 🚀
+//       </h1>
+//     </div>
+//   );
+// }
+
+// export default App;
+
+
+// import React, { useState } from 'react';
+// import Login from './components/Login';
+// import Dashboard from './components/Dashboard';
+
+// export default function App() {
+//   const [user, setUser] = useState(null);
+
+//   // Simple logout handler
+//   const handleLogout = () => setUser(null);
+
+//   return (
+//     <div className="min-h-screen bg-[#121212] text-gray-100 font-sans antialiased">
+//       {!user ? (
+//         <Login onLoginSuccess={setUser} />
+//       ) : (
+//         <Dashboard user={user} onLogout={handleLogout} />
+//       )}
+//     </div>
+//   );
+// }
+
+import React, { useState } from 'react';
+import Login from './components/Login';
+import Dashboard from './components/Dashboard';
+
+export default function App() {
+  const [user, setUser] = useState(null);
+
+  const handleLogout = () => setUser(null);
+
   return (
-    <div className="flex min-h-screen items-center justify-center bg-slate-900 text-white">
-      <h1 className="text-4xl font-bold text-sky-400 drop-shadow-md">
-        Tailwind is up and running! 🚀
-      </h1>
+    <div className="min-h-screen bg-[#09090b] text-gray-100 font-sans antialiased">
+      {!user ? (
+        <Login onLoginSuccess={setUser} />
+      ) : (
+        <Dashboard user={user} onLogout={handleLogout} />
+      )}
     </div>
   );
 }
-
-export default App;
