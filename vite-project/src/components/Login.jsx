@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 
 const COMPLIANCE_WORKER_DB = [
-  { email: 'mohan@geetauniversity.edu', password: 'password123', name: 'Mohan Kumar', role: 'Plumbing & Water Supply' },
-  { email: 'ramesh@geetauniversity.edu', password: 'password123', name: 'Ramesh Singh', role: 'Cleaning & Housekeeping' }
+  { email: 'mohan@geetauniversity.edu.in', password: 'password123', name: 'Mohan Kumar', role: 'Plumbing & Water Supply' },
+  { email: 'ramesh@geetauniversity.edu.in', password: 'password123', name: 'Ramesh Singh', role: 'Cleaning & Housekeeping' }
 ];
 
 export default function Login({ onLoginSuccess }) {
