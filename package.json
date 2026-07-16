@@ -1,6 +1,30 @@
 {
   "dependencies": {
     "@tailwindcss/vite": "^4.3.2",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.7.4",
     "tailwindcss": "^4.3.2"
-  }
+  },
+  "name": "tailwind.css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2501301023-AS/Tailwind.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/2501301023-AS/Tailwind/issues"
+  },
+  "homepage": "https://github.com/2501301023-AS/Tailwind#readme"
 }
