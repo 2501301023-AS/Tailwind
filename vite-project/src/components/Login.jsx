@@ -92,7 +92,7 @@ export default function Login({ onLoginSuccess }) {
 
             <button
               type="submit"
-              className="w-full rounded-lg bg-[#d15903] py-3 text-xs font-bold text-white uppercase tracking-wider transition hover:bg-[#b04a02] focus:outline-none focus:ring-2 focus:ring-[#d15903]"
+              className="w-full rounded-lg bg-[#e5f443] py-3 text-xs font-bold text-white uppercase tracking-wider transition hover:bg-[#b04a02] focus:outline-none focus:ring-2 focus:ring-[#d15903]"
             >
               Verify & Secure Login
             </button>
